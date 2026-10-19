@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "revision": "development-2026-10-19-1",
+  "documents": {
+    "terms": {
+      "id": "terms-2026-09-16-r1",
+      "kind": "terms",
+      "path": "documents/terms-2026-09-16-r1.html",
+      "effectiveDate": "2026-09-16",
+      "title": "이용약관 및 커뮤니티 운영정책",
+      "consentVersion": "2026-08-24"
+    },
+    "privacy": {
+      "id": "privacy-2026-10-15-r1",
+      "kind": "privacy",
+      "path": "documents/privacy-2026-10-15-r1.html",
+      "effectiveDate": "2026-10-15",
+      "title": "개인정보처리방침"
+    },
+    "delete": {
+      "id": "delete-2026-10-15-r1",
+      "kind": "delete",
+      "path": "documents/delete-2026-10-15-r1.html",
+      "effectiveDate": "2026-10-15",
+      "title": "데이터 삭제 안내"
+    }
+  },
+  "notices": [
+    {
+      "id": "development-notice",
+      "revision": 1,
+      "title": "개발용 안내 확인",
+      "summary": "공지 목록·홈 배너·팝업을 확인해요. 실제 약관 개정 예고가 아니에요.",
+      "priority": 10,
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "startsAt": "2026-10-19T00:00:00Z",
+      "endsAt": null,
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "minProtocol": 2,
+      "minAppVersion": "1.1.0",
+      "maxAppVersion": null,
+      "document": {
+        "id": "development-notice-20261019-r1",
+        "kind": "notice",
+        "path": "notices/development-notice-20261019-r1.html",
+        "effectiveDate": null,
+        "title": "개발용 안내 확인"
+      }
+    }
+  ]
+}

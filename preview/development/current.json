@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "revision": "development-2026-10-19-1",
+  "documents": {
+    "terms": {
+      "id": "terms-2026-09-16-r1",
+      "kind": "terms",
+      "effectiveDate": "2026-09-16",
+      "title": "이용약관 및 커뮤니티 운영정책",
+      "consentVersion": "2026-08-24",
+      "url": "https://raw.githubusercontent.com/KINGTAEHEE/jideutno-legal/refs/heads/agent/remote-legal-development/preview/development/documents/terms-2026-09-16-r1.html",
+      "sha256": "261739dfe21bc216b50756c08a2aa252cb692b0504f9113166e1e1931b47add9"
+    },
+    "privacy": {
+      "id": "privacy-2026-10-15-r1",
+      "kind": "privacy",
+      "effectiveDate": "2026-10-15",
+      "title": "개인정보처리방침",
+      "url": "https://raw.githubusercontent.com/KINGTAEHEE/jideutno-legal/refs/heads/agent/remote-legal-development/preview/development/documents/privacy-2026-10-15-r1.html",
+      "sha256": "0d1ffdb2512005a64711f8f3c67c06c775282a1ce4d7388b93b49f36e6a45126"
+    },
+    "delete": {
+      "id": "delete-2026-10-15-r1",
+      "kind": "delete",
+      "effectiveDate": "2026-10-15",
+      "title": "데이터 삭제 안내",
+      "url": "https://raw.githubusercontent.com/KINGTAEHEE/jideutno-legal/refs/heads/agent/remote-legal-development/preview/development/documents/delete-2026-10-15-r1.html",
+      "sha256": "7755e671b6f7a081fe2345f5487b9f857d716aafedb52abacb159f3d414a0cdc"
+    }
+  },
+  "notices": [
+    {
+      "id": "development-notice",
+      "revision": 1,
+      "title": "개발용 안내 확인",
+      "summary": "공지 목록·홈 배너·팝업을 확인해요. 실제 약관 개정 예고가 아니에요.",
+      "priority": 10,
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "startsAt": "2026-10-19T00:00:00Z",
+      "endsAt": null,
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "minProtocol": 2,
+      "minAppVersion": "1.1.0",
+      "maxAppVersion": null,
+      "document": {
+        "id": "development-notice-20261019-r1",
+        "kind": "notice",
+        "effectiveDate": null,
+        "title": "개발용 안내 확인",
+        "url": "https://raw.githubusercontent.com/KINGTAEHEE/jideutno-legal/refs/heads/agent/remote-legal-development/preview/development/notices/development-notice-20261019-r1.html",
+        "sha256": "e7a94bc05b76ec3ba4eb08c7adb896e9cae580923dd6351cdca6234efa68c9f1"
+      }
+    }
+  ]
+}

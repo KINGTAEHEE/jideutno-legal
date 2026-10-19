@@ -1,0 +1,27 @@
+name: Development legal catalog
+on:
+  push:
+    branches: [agent/remote-legal-development]
+  pull_request:
+    paths: ['preview/development/**', 'tools/**', '.github/workflows/development-legal.yml']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate manifest and prohibit changes to published bodies
+        env:
+          BASE: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -n "$BASE" ] && [ "$BASE" != '0000000000000000000000000000000000000000' ]; then
+            node tools/build-development.mjs --check --base "$BASE"
+          else
+            node tools/build-development.mjs --check
+          fi
