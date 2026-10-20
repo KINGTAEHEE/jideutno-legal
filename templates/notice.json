@@ -1,0 +1,21 @@
+{
+  "id": "notice-20261020-01",
+  "revision": 1,
+  "title": "새로운 소식을 알려드려요",
+  "summary": "지듣노의 새로운 안내를 확인해 주세요.",
+  "priority": 10,
+  "publishedAt": "2026-10-20T09:00:00Z",
+  "startsAt": "2026-10-20T09:00:00Z",
+  "endsAt": null,
+  "platforms": ["android", "ios"],
+  "minProtocol": 2,
+  "minAppVersion": "1.1.1",
+  "maxAppVersion": null,
+  "document": {
+    "id": "notice-20261020-01-r1",
+    "kind": "notice",
+    "path": "notices/notice-20261020-01-r1.html",
+    "effectiveDate": null,
+    "title": "새로운 소식을 알려드려요"
+  }
+}
